@@ -10,6 +10,7 @@
     <modules>
         <module>thread-executor</module>
         <module>thread-on-off</module>
+        <module>thread-jmm</module>
     </modules>
 
     <packaging>pom</packaging>
