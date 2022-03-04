@@ -11,6 +11,7 @@
         <module>thread-executor</module>
         <module>thread-on-off</module>
         <module>thread-jmm</module>
+        <module>thread-read-bigfile</module>
     </modules>
 
     <packaging>pom</packaging>
