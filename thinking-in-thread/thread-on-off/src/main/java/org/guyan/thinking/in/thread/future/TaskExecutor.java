@@ -18,6 +18,7 @@ public class TaskExecutor {
             e.printStackTrace();
         } finally {
             task.cancel(true);
+            taskExec.shutdown();
         }
     }
 

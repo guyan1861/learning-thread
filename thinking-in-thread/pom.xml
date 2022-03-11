@@ -12,6 +12,7 @@
         <module>thread-on-off</module>
         <module>thread-jmm</module>
         <module>thread-read-bigfile</module>
+        <module>thread-atom</module>
     </modules>
 
     <packaging>pom</packaging>
