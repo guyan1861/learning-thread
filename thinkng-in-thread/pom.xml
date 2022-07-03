@@ -11,8 +11,8 @@
     <groupId>com.guyan</groupId>
     <artifactId>thinkng-in-thread</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>thinkng-in-thread</name>
-    <description>thinkng-in-thread</description>
+    <name>thinking-in-thread</name>
+    <description>thinking-in-thread</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

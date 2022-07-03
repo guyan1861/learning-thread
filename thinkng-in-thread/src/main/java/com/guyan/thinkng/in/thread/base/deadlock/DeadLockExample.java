@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * 3.不可抢占，其它线程不能抢占线程t1占有的资源
  * 4.循环等待，线程 T1 等待线程 T2 占有的资源，线程 T2 等待线程 T1 占有的资源，就是循环等待。
  */
-public class DeadLockTest {
+public class DeadLockExample {
     private final Object object1 = new Object();
     private final Object object2 = new Object();
 
@@ -42,7 +42,7 @@ public class DeadLockTest {
     }
 
     public static void main(String[] args) {
-        DeadLockTest lockTest = new DeadLockTest();
+        DeadLockExample lockTest = new DeadLockExample();
         lockTest.deadLock();
     }
 }
